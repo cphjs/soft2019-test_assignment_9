@@ -1,8 +1,10 @@
-# Links
+# Info
 
 [Assignment description](https://github.com/datsoftlyngby/soft2019spring-test/blob/master/Assignments/09%20Nonfunctional%20Testing%20Assignment.pdf)
 
 [Assigment 8\(this is the code for the server that is tested\)](https://github.com/cphjs/soft2019-test_assignment_8)
+
+The server can be run locally to run the tests, but for your convenience I set up a server to host that website http://134.209.201.127/ It will be taken down after the peer-review period ends.
 
 # Solution
 
@@ -15,4 +17,3 @@ The first thread group **10-group** makes a simple GET request to the index page
 The second thread group is similar to the first except that it deals with JSON instead of HTML. It uses a **HTTP Header Manager** to send an `Accept` header to tell the server that it should return JSON. The `Response type is json` assertion validates that the server is indeed returning valid json. Afterwards I check that the returned json object contains arrays of orders and pizzas and that their elements contain a name attribute.
 
 The last thread group contains a parameterized test. It takes a simple file(see `pizzaset.txt`) that contains the name of the pizza and the expected price. It uses the `/price` endpoint to query the price for a specific pizza and then compares the returned value to the one loaded from the csv file.
-
