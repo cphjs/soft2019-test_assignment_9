@@ -2,7 +2,7 @@
 
 [Assignment description](https://github.com/datsoftlyngby/soft2019spring-test/blob/master/Assignments/09%20Nonfunctional%20Testing%20Assignment.pdf)
 
-[Assigment 8](this is the code for the server that is tested](https://github.com/cphjs/soft2019-test_assignment_8)
+[Assigment 8\(this is the code for the server that is tested\)](https://github.com/cphjs/soft2019-test_assignment_8)
 
 # Solution
 
